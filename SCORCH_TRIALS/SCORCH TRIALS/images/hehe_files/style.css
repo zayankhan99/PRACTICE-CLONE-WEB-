@@ -1,0 +1,261 @@
+*.body{
+    font-family: sans-serif;
+    background-color: black;
+}
+nav ul li {
+    float: left;
+}
+{
+  outline:none !important ;
+}
+   .header{
+    position: relative;
+    z-index: 1000000;
+   }
+   .p{
+    font-size: 1.15rem;
+   }
+   .navbar{
+    background: transparent !important;
+    transition: 0.5s;
+   }
+   .navbar.scrolled {
+    background: #000 !important;
+    transition: 0.5s;
+    
+   }
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus,
+{
+    color:rgba(255, 255 ,255,.1);
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:visited,
+{
+    color:rgba(255,255,255,.1);
+    font-size : 2.5rem;
+    font-weight : 600 ;
+}
+   
+   .navbar-light .navbar-nav .nav-link {
+    color:rgba(255,255,255,.8);
+   }
+
+.pic2{
+    margin-left: 110px;
+}
+  
+
+.banner{
+    position: relative;
+    top:0;
+    width:100%;
+    height:100vh;
+    background: url(https://png.pngtree.com/background/20230412/original/pngtree-game-scene-fairyland-green-picture-image_2395537.jpg);
+    background-size: banner;
+    margin-bottom: 0;
+}
+.banner:before,
+.sec2:before {
+    content:'';
+    position: relative;
+    left:0;
+    top:0;
+    width:100%;
+    height:400px;
+    background: linear-gradient(#000,transparent);
+    pointer-events: none;
+}
+.banner:after,
+.sec2:after {
+    content:'';
+    position: absolute;
+    left:0;
+    top:0;
+    width:200%;
+    height:650px;
+    background: linear-gradient(360deg,#000,transparent);
+    pointer-events: none;
+}
+.height100p{
+    height:100vh;
+}
+.h-100{
+    height: 100%;
+}
+.contentBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+.texxxxt{
+    margin-top: 200px;
+   
+}
+.white{
+    font-size: large;
+}
+.contentBox h1 {
+    font-weight: 900;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 5 rem;
+    color:white;
+}
+.contentBox p {
+    color:white;
+    font-size: 1.3rem;
+}
+.sec1{
+    padding:100px 0;
+    background: #000;
+}
+.header-Text h2{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color:#fff
+}
+.hehe {
+    color:#fff;
+}
+.placeBox{
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 30px;
+}
+.placeBox .imgBx{
+    width:100%;
+    height:100%;
+
+}
+.placeBox .imgBx img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.placeBox .content{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: baseline;
+    align-items: flex-end;
+    
+}
+.placeBox .content h3{
+    position: relative;
+    margin:0;
+    padding:10px;
+    background:black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.placeBox .content h3 span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sec2{
+    position: relative;
+    background: url(https://i.imgur.com/PrcgZGx.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.ven{
+    margin-top: 220px;
+    font-size: 40px;
+}
+.sec2 h2{
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+}
+.btnD1{
+    border: 2px solid #fff;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    padding:15px 50px;
+    font-size: 1.15rem;
+    outline: none;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.blog{
+    position: relative;
+    padding:100px 0;
+    background: #000;
+}
+.blogpost{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+.blogpost .imgBx{
+    height: 400px;
+
+}
+.blogpost .imgBx img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.blogpost .content{
+    padding: 15px;
+    margin-top:0 ;
+    background: #fff;
+    
+}
+.blogpost .content h1{
+    margin:0;
+    padding:0 0 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+.btnD2{
+    background: #262626;
+    color: #fff;
+    border-radius: 30px;
+    padding:10px 20px;
+}
+.contact{
+  
+    background-image:url(https://images5.alphacoders.com/674/674474.jpg) ;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.bg{
+    color: #fff;
+}
+.woop{
+    margin-top: 20px;
+    font-weight: 700;
+    color:black ;
+}
+.woop2{
+    font-weight: 500;
+}
+.sci{
+    margin-top: 0;
+    color: aliceblue;
+    font-size: 20px;
+}
+.oop{
+    color: aliceblue;
+   margin-left: 30px;
+   margin-top: 30px;
+}
